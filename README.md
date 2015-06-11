@@ -23,8 +23,6 @@ source $BREDIN/bin/virtualenvwrapper.sh
 ```bash
 $ export NEW_ENV=internship
 $ mkvirtualenv $NEW_ENV
-$ ln -s $BREDIN/lib/python2.7/site-packages/cv2.so $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv2.so
-$ ln -s $BREDIN/lib/python2.7/site-packages/cv.py $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv.py
 $ pip install "ipython[notebook]"
 $ pip install matplotlib
 $ pip install scipy

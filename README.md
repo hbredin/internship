@@ -21,12 +21,12 @@ source $BREDIN/bin/virtualenvwrapper.sh
 * Create a Python isolated environment and install several useful tools
 
 ```bash
-$ export NEW_ENV=internship
-$ mkvirtualenv $NEW_ENV
-$ pip install "ipython[notebook]"
-$ pip install matplotlib
-$ pip install scipy
-$ pip install numpy
-$ ln -s $BREDIN/lib/python2.7/site-packages/cv2.so $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv2.so
-$ ln -s $BREDIN/lib/python2.7/site-packages/cv.py $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv.py
+export NEW_ENV=internship
+mkvirtualenv $NEW_ENV
+pip install "ipython[notebook]"
+pip install matplotlib
+pip install scipy
+pip install numpy
+ln -s $BREDIN/lib/python2.7/site-packages/cv2.so $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv2.so
+ln -s $BREDIN/lib/python2.7/site-packages/cv.py $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv.py
 ```

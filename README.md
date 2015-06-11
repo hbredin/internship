@@ -34,6 +34,7 @@ $ ln -s $BREDIN/lib/python2.7/site-packages/cv.py $WORKON_HOME/$NEW_ENV/lib/pyth
 ## Getting started 
 
 ```bash
+$ workon internship
 $ git clone https://github.com/hbredin/ke.git $HOME/internship; 
 $ cd $HOME/internship/notebook
 $ ipython notebook

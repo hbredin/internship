@@ -1,4 +1,4 @@
-# Ke's internship
+# Internship
 
 ## Setting up your environment
 

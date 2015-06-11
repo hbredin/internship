@@ -24,9 +24,9 @@ source $BREDIN/bin/virtualenvwrapper.sh
 $ export NEW_ENV=internship
 $ mkvirtualenv $NEW_ENV
 $ pip install "ipython[notebook]"
-$ pip install matplotlib
-$ pip install scipy
 $ pip install numpy
+$ pip install scipy
+$ pip install matplotlib
 $ ln -s $BREDIN/lib/python2.7/site-packages/cv2.so $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv2.so
 $ ln -s $BREDIN/lib/python2.7/site-packages/cv.py $WORKON_HOME/$NEW_ENV/lib/python2.7/site-packages/cv.py
 ```
